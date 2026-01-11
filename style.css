@@ -2,20 +2,26 @@
 body {
 	text-align: center;
 	font-family: Arial, sans-serif;
-	background-color: #f5f5f5;
-	color: #333;
+	background-color: #EEE9DF;
+	color: #1b2632;
 	margin: 0;
 	padding: 20px;
 	
 }	
 
-.achievements {
-	text-align: center;
+ul {
+  display: inline-block;
+  text-align: left;
 }
 
 #profile-img {
 	width: 150px;
 	border-radius: 50%;
+}
+
+#achieve {
+	width: 400px;
+    height: 100px;
 }
 
 button {
@@ -26,6 +32,6 @@ button {
 
 /* Dark Theme */
 body.dark {
-	background-color: #121212;
-	color: #f5f5f5;
+	background-color: #1b2632;
+	color: #ffb162;
 }
