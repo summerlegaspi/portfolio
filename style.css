@@ -9,6 +9,10 @@ body {
 	
 }	
 
+.achievements {
+	text-align: center;
+}
+
 #profile-img {
 	width: 150px;
 	border-radius: 50%;
